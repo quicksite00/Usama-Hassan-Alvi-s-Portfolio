@@ -1,0 +1,11 @@
+torch
+transformers
+peft
+bitsandbytes
+accelerate
+openai-whisper
+rich
+pyyaml
+pyaudio
+datasets
+trl

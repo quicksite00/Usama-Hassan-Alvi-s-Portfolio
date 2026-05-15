@@ -1,0 +1,17 @@
+model:
+  path: "models/qwen_final_adapter"
+  quantization: "4bit"
+  max_new_tokens: 80
+
+stt:
+  model_size: "tiny"
+  language: "en"
+  silence_threshold: 2.0
+
+safety:
+  mode: "allowlist"
+  dry_run: false
+
+ui:
+  theme: "dark"
+  show_confidence: true
